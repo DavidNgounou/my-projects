@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>testing</title>
+    <style type="text/css">
+    body{
+        background-image: url(test.jpg);
+        background-size: cover;
+        position: center;
+        background-repeat: no-repeat;
+    }
+    ul{
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+    }
+    ul li {
+        float: left;
+        width: 200px;
+        height: 40px;
+        text-align: center;
+        background-color: crimson;
+        line-height: 40px;
+        margin-right: 2px;
+        opacity: 0.8;
+    }
+    ul li a {
+        display: block;
+    }
+    ul li a:hover{
+        background-color: darkred;
+    }
+    ul li ul li {
+        display: none;
+    } 
+    ul li:hover ul li {
+        display: block;
+    }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Home</li>
+        <li>About
+            <ul>
+                <li><a>Me</a></li>
+                <li><a>Partners</a></li>
+                <li><a>Relationships</a></li>
+            </ul>
+        </li>
+        <li>Contacts
+            <ul>
+                <li><a>Office</a></li>
+                <li><a>Home</a></li>
+                <li><a>Fax</a></li>
+                <li><a>Urgency</a></li>
+            </ul>
+        </li>
+        <li>News</li>
+        <li>papers
+            <ul>
+                <li><a>Paper one</a></li>
+                <li><a>Paper two</a></li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
